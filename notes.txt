@@ -1,0 +1,6 @@
+-*- mode: org -*-
+
+* Add sshd to startup in ubuntu
+  - sudo update-rc.d ssh defaults
+
+  
