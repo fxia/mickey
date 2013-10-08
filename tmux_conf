@@ -1,0 +1,26 @@
+set-option prefix "C-\\"
+#set-option status-bg colour130
+#set-option status-fg colour252
+set-option status-bg colour238
+#set-option status-fg white
+set-option status-fg yellow
+#set-option pane-active-border-bg colour130
+set-option pane-active-border-fg colour196
+set-option pane-border-fg colour220
+set-option mouse-select-pane on
+set-window-option -g mode-keys emacs
+set-window-option -g window-status-attr bold
+set-window-option -g window-status-current-bg colour172
+set-window-option -g window-status-current-fg colour17
+set-window-option -g monitor-activity off
+bind-key k command-prompt "kill-pane -t '%%'"
+bind-key t select-pane -U
+bind-key b select-pane -D
+bind-key l select-pane -L
+bind-key r select-pane -R
+bind-key Tab previous-window
+bind-key n next-window
+unbind-key p
+unbind-key }
+unbind-key C-o
+
